@@ -43,7 +43,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/01.jpg">
-                                <img src="img/thumbs/01.jpg" title="Um carro em uma rua cercada de prédios baixos">
+                                <img src="img/thumbs/01.jpg" alt="Um carro em uma rua cercada de prédios baixos">
                                 <p class="recent-works-card-title">Lorem ipsum dolor sit amet</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -51,7 +51,7 @@
         
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/02.jpg">
-                                <img src="img/thumbs/02.jpg" title="Uma floresta de árvores muito grandes">
+                                <img src="img/thumbs/02.jpg" alt="Uma floresta de árvores muito grandes">
                                 <p class="recent-works-card-title">Aliquam erat volutpat</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -59,7 +59,7 @@
         
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/03.jpg">
-                                <img src="img/thumbs/03.jpg" title="Uma biblioteca gigante">
+                                <img src="img/thumbs/03.jpg" alt="Uma biblioteca gigante">
                                 <p class="recent-works-card-title">Donec quis gravida libero</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -69,7 +69,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/04.jpg">
-                                <img src="img/thumbs/04.jpg" title="Uma pessoa subinda uma escadaria de um ônibus">
+                                <img src="img/thumbs/04.jpg" alt="Uma pessoa subinda uma escadaria de um ônibus">
                                 <p class="recent-works-card-title">Sed non eros augue</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -77,7 +77,7 @@
         
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/05.jpg">
-                                <img src="img/thumbs/05.jpg" title="Montanhas nevadas">
+                                <img src="img/thumbs/05.jpg" alt="Montanhas nevadas">
                                 <p class="recent-works-card-title">Proin et augue nulla</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -85,7 +85,7 @@
         
                         <article class="recent-works-card">
                             <a class="imagem-link" href="img/fulls/06.jpg">
-                                <img src="img/thumbs/06.jpg" title="Uma casa na árvore para uma criança">
+                                <img src="img/thumbs/06.jpg" alt="Uma casa na árvore para uma criança">
                                 <p class="recent-works-card-title">Duis eget condimentum sapien</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
@@ -151,7 +151,7 @@
                 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. Finally, this is a <a href="#">link</a>.</p>
 
                 <blockquote cite="http://developer.mozilla.org">
-                    Esta é uma citação tirada da Mozilla Developer Center.
+                    <p>Esta é uma citação tirada da Mozilla Developer Center.</p>   
                 </blockquote>
 
                 <p>
@@ -163,8 +163,7 @@
 
                 <h4>Preformatado</h4>
 
-                <pre>
-                    <code>
+                <pre><code>
 &lt;script&gt;
     alert(oi);
 &lt;/script&gt;
@@ -200,11 +199,11 @@
 
                         <h5>icons</h5>
                         <ul class="ul-icons">
-                            <li><i class="fa-brands fa-square-twitter"></i></li>
-                            <li><i class="fa-brands fa-square-facebook"></i></li>
-                            <li><i class="fa-brands fa-square-instagram"></i></li>
-                            <li><i class="fa-brands fa-square-github"></i></li>
-                            <li><i class="fa-brands fa-telegram"></i></li>      
+                            <li><span class="hidden">Twitter</span><i class="fa-brands fa-square-twitter"></i></li>
+                            <li><span class="hidden">Facebook</span><i class="fa-brands fa-square-facebook"></i></li>
+                            <li><span class="hidden">Instagram</span><i class="fa-brands fa-square-instagram"></i></li>
+                            <li><span class="hidden">GitHub</span><i class="fa-brands fa-square-github"></i></li>
+                            <li><span class="hidden">Telegram</span><i class="fa-brands fa-telegram"></i></li>      
                         </ul>
                     </div>
                 </div>
@@ -227,12 +226,12 @@
                     <div class="col-2">
                         <p>
                             <a href="#" class="button-default button-default-full">Default</a>
-                            <a href="#" class="button-default button-default-full button-default-stroke">Default</a>
+                            <a href="#" class="button-default button-default-full button-default-stroke btn-space">Default</a>
                         </p>
         
                         <p>
                             <a href="#" class="button-default button-default-full button-default-small">Default</a>
-                            <a href="#" class="button-default button-default-full button-default-small button-default-stroke">Default</a>
+                            <a href="#" class="button-default button-default-full button-default-small button-default-stroke btn-space">Default</a>
                         </p>
                     </div>
                 </div>               
@@ -343,12 +342,12 @@
 
                 <p>
                     <button href="#" class="button-default button-default-full">Default</button>
-                    <button href="#" class="button-default button-default-full button-default-stroke">Default</button>
+                    <button href="#" class="button-default button-default-full button-default-stroke btn-space">Default</button>
                 </p>
 
                 <p>
                     <button href="#" class="button-default button-default-full button-default-small">Default</button>
-                    <button href="#" class="button-default button-default-full button-default-small button-default-stroke">Default</button>
+                    <button href="#" class="button-default button-default-full button-default-small button-default-stroke btn-space">Default</button>
                 </p>
 
                 <input type="submit" value="mandar">
@@ -356,32 +355,33 @@
 
                 <h5>Forms</h5>
 
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name">
+                <form action="#" method="post">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name">
 
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
 
-                <select>
-                    <option value="0">Selecione ...</option>
-                    <option value="1">HTML</option>
-                    <option value="2">CSS</option>
-                    <option value="3">JAVA</option>
-                </select>
+                    <select>
+                        <option value="0">Selecione ...</option>
+                        <option value="1">HTML</option>
+                        <option value="2">CSS</option>
+                        <option value="3">JAVA</option>
+                    </select>
 
-                <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
-                <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
-                <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label>
+                    <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
+                    <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
+                    <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label>
 
-                <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
-                <label><input type="checkbox" name="human" value="1">Sou Humano</label>
+                    <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>
+                    <label><input type="checkbox" name="human" value="1">Sou Humano</label>
 
-                <label for="msg">Mensagem:</label>
-                <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
+                    <label for="msg">Mensagem:</label>
+                    <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
 
-                <input type="submit" class="button-default button-default-big" value="Enviar">
-                <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">
-
+                    <input type="submit" class="button-default button-default-big" value="Enviar">
+                    <input type="reset" class="button-default button-default-stroke button-default-big" value="Limpar">
+                </form>
             </section>
 
             <section class="main-content-section">
@@ -405,14 +405,24 @@
 
                 <h4>Left & Right</h4>
 
-                <p><img src="img/avatar.jpg" alt="Jovem calcasiano de costas" class="img-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem felis, lobortis in porta quis, consequat a lorem. Vivamus ante mi, pulvinar non diam id, scelerisque commodo urna. Proin justo nisi, scelerisque eget congue non, varius in enim. Suspendisse porttitor commodo tellus, a blandit felis. Praesent ut feugiat lectus. Quisque suscipit nisl augue, egestas pellentesque est malesuada vitae. Ut malesuada tortor vitae ultrices sollicitudin. Mauris eu imperdiet eros. Mauris sagittis posuere lectus at porttitor. Quisque vehicula felis lectus, ac facilisis augue condimentum et.</p>
+                <p class="final-txt"><img src="img/avatar.jpg" alt="Jovem calcasiano de costas" class="img-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem felis, lobortis in porta quis, consequat a lorem. Vivamus ante mi, pulvinar non diam id, scelerisque commodo urna. Proin justo nisi, scelerisque eget congue non, varius in enim. Suspendisse porttitor commodo tellus, a blandit felis. Praesent ut feugiat lectus. Quisque suscipit nisl augue, egestas pellentesque est malesuada vitae. Ut malesuada tortor vitae ultrices sollicitudin. Mauris eu imperdiet eros. Mauris sagittis posuere lectus at porttitor. Quisque vehicula felis lectus, ac facilisis augue condimentum et.</p>
 
-                <p><img src="img/avatar.jpg" alt="Jovem calcasiano de costas" class="img-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem felis, lobortis in porta quis, consequat a lorem. Vivamus ante mi, pulvinar non diam id, scelerisque commodo urna. Proin justo nisi, scelerisque eget congue non, varius in enim. Suspendisse porttitor commodo tellus, a blandit felis. Praesent ut feugiat lectus. Quisque suscipit nisl augue, egestas pellentesque est malesuada vitae. Ut malesuada tortor vitae ultrices sollicitudin. Mauris eu imperdiet eros. Mauris sagittis posuere lectus at porttitor. Quisque vehicula felis lectus, ac facilisis augue condimentum et.</p>
+                <p class="final-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sem felis, lobortis in porta quis, consequat a lorem. Vivamus ante mi, pulvinar non diam id, scelerisque commodo urna. Proin justo nisi, scelerisque eget congue non, varius in enim. Suspendisse porttitor commodo tellus, a blandit felis. Praesent ut feugiat lectus. Quisque suscipit nisl augue, egestas pellentesque est malesuada vitae. Ut malesuada tortor vitae ultrices sollicitudin. Mauris eu imperdiet eros. Mauris sagittis posuere lectus at porttitor. Quisque vehicula felis lectus, ac facilisis augue condimentum et.<img src="img/avatar.jpg" alt="Jovem calcasiano de costas" class="img-right"></p>
             </section>
         </main>
 
         <footer class="main-footer">
 
+            <ul class="ul-icons">
+                <li><a href="#" class="icon-link"><span class="hidden">Twitter</span><i class="fa-brands fa-square-twitter"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">Facebook</span><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">Instagram</span><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">GitHub</span><i class="fa-brands fa-square-github"></i></a></li>
+                <li><a href="#" class="icon-link"><span class="hidden">Telegram</span><i class="fa-brands fa-telegram"></i></a></i></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy;Untitled</li><li>Design: <a href="http://html5up.net" class="main-header-link">HTML5 UP</a></li>
+            </ul>
         </footer>
     </body>
 </html>

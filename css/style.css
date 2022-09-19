@@ -50,10 +50,21 @@ sub, sup{
     font-size: 12px;
 }
 
+.hidden{
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 blockquote{
     border-left: 5px solid #efefef;
     margin: 2em 0;
     padding: .5em 0 .5em 1.5em;
+}
+
+blockquote p{
+    margin-bottom: 0;
 }
 
 code{
@@ -132,19 +143,36 @@ textarea{
 
 .button-default{
     background-color: #49bf9d;
-    border: 2px solid #49bf9d;
+    border: 3px solid #49bf9d;
     color: white;
     padding: .75em 1.5em;
     border-radius: 8px;
     font-size: .8em;
     display: inline-block;
     width: auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.button-default:hover{
+    background-color: #53d6b1;
+    border-color: transparent;
+}
+
+.btn-space{
+    margin-top: 10px;
 }
 
 .button-default-stroke{
     background-color: white;
     border-color: #efefef;
     color: inherit;
+}
+
+.button-default-stroke:hover{
+    color: #49bf9d;
+    border-color: #49bf9d;
+    background-color: white;
 }
 
 .button-default-small{
@@ -252,6 +280,42 @@ textarea{
 .gallery-thumb img{
     margin-bottom: 2%;
     border-radius: 5px;
+}
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.icon-link{
+    border: none;
+    color: #666;
+    transition: all 0.5s;
+}
+
+.icon-link:hover{
+    color: #49bf9d;
+}
+
+.copyright li{
+    display: inline;
+}
+
+.final-txt{
+    text-align: justify;
+    position: relative; 
+}
+
+.img-right{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    display: block;
 }
 
 /*Grid*/
